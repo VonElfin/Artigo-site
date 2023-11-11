@@ -1,2 +1,2 @@
-# Artigo-site
-Site contendo um artigo
+# site-artigo
+Site sobre o Artigo
