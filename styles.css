@@ -100,3 +100,13 @@ nav .menu a:hover {
 ::-webkit-scrollbar{
     width: 0px;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Adicione um estilo para destacar o link ativo se desejar */
+.menu a:hover,
+.menu a:active {
+    color: #007bff; /* ou outra cor de destaque desejada */
+}
