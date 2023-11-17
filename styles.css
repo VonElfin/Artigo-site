@@ -75,6 +75,9 @@ nav .menu a:hover {
 
 .image-section {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
 }
 
 .image-box {
@@ -83,6 +86,7 @@ nav .menu a:hover {
     border-radius: 50%; /* Transforma as image-boxes em círculos */
     overflow: hidden;
     margin: 0 10px; /* Adiciona margem entre os círculos */
+    text-align: center;
 }
 
 .image-box img {
@@ -90,7 +94,6 @@ nav .menu a:hover {
     height: 100%;
     object-fit: cover; /* Redimensiona e corta a imagem para preencher o círculo */
 }
-
 
 .image-1 img {
     width: 100%; 
@@ -105,8 +108,28 @@ html {
     scroll-behavior: smooth;
 }
 
-/* Adicione um estilo para destacar o link ativo se desejar */
 .menu a:hover,
 .menu a:active {
-    color: #007bff; /* ou outra cor de destaque desejada */
+    color: #007bff; 
 }
+
+.image-name {       /* n sei o pq crlh n exibe o nome */
+    font-size: 14px;
+    color: #464646;
+    margin: 0;
+}
+
+/*
+.name-section {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 0px;
+}
+
+.name-section p {
+    font-size: 15px;
+    color: #000000;
+    margin: 0; /* Remova a margem padrão para garantir um layout adequado 
+}
+*/
